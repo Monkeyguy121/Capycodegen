@@ -1,0 +1,18 @@
+{
+	"_QPVersion": "0.1.1",
+	"name": "#{name}",
+	"id": "#{id}",
+	"author": "#{author}",
+	"version": "0.1.0",
+	"packageId": "com.AnotherAxiom.GorillaTag",
+	"packageVersion": "1.1.1",
+	"description": "#{TestMod}",
+	"dependencies": [],
+	"modFiles": [
+		"lib#{id}.so"
+	],
+	"libraryFiles": [
+		"libbeatsaber-hook_2_3_2.so"
+	],
+	"fileCopies": []
+}
