@@ -1,6 +1,6 @@
-# #{name}
+TestMod
 
-#{description}
+This is my QuestMod test
 
 ## Credits
 
