@@ -10,12 +10,12 @@
     "dependencies": [
         {
             "id": "MonkeComputer",
-            "version": "^1.1.0",
+            "version": "*",
             "downloadIfMissing": "https://github.com/RedBrumbler/MonkeComputer/releases/download/1.1.0/MonkeComputer.qmod"
         },
         {
             "id": "custom-types",
-            "version": "^0.12.0",
+            "version": "*",
             "downloadIfMissing": "https://github.com/sc2ad/Il2CppQuestTypePatching/releases/download/v0.12.0/custom-types.qmod"
         }
     ],
