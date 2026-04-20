@@ -27,12 +27,12 @@
         },
         {
             "id": "custom-types",
-            "versionRange": "^0.12.0",
+            "versionRange": "*",
             "additionalData": {}
         },
         {
             "id": "MonkeComputer",
-            "versionRange": "^1.1.0",
+            "versionRange": "*",
             "additionalData": {}
         }
     ],
