@@ -1,7 +1,4 @@
 #include "main.hpp"
-#include "custom-types/shared/register.hpp"
-#include "MonkeComputer/shared/Register.hpp"
-#include "MyView.hpp"
 
 static ModInfo modInfo;
 
@@ -27,12 +24,5 @@ extern "C" void setup(ModInfo& info) {
 extern "C" void load() {
     il2cpp_functions::Init();
     getLogger().info("Installing hooks...");
-
-    // Register custom types with il2cpp FIRST
-    custom_types::Register::AutoRegister();
-
-    // Register your view on the MonkeComputer watch
-    GorillaUI::Register::RegisterView<MyMod::MyView>(modInfo);
-
     getLogger().info("Installed all hooks!");
 }
